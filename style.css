@@ -44,7 +44,10 @@ section p{
    display:flex;
    height: 300px;
    justify-content: space-around;
-   margin: 2rem 5rem;
+   padding: 2rem 5rem;
+   background-image: linear-gradient(rgb(14, 109, 133),#242830) ;
+   color: white;
+   font-family: sans-serif;
 
    
 }
@@ -52,7 +55,6 @@ section p{
 
 
 .habilidades h1 {
-    margin-top: 50px; 
     padding-top: 50px;
 }
 .habilidades h3 {
@@ -102,15 +104,11 @@ article {
     width: 38px;  
 }
 
-.habilidades h1 {
-    margin-top: 50px; 
-    padding-top: 50px;
-}
 .habilidades h3 {
     margin-top: 50px;
 }
 article {
-    background-color: #272727;
+    background-color: #363535;
     color: white;
     height: 60rem;
 }
@@ -153,4 +151,54 @@ article {
 .linguagens li img{
     width: 38px;  
 }
+.backend{
+    display: flex;
+}
+.backend div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.backend div span{
+    color:#a89e9e;
+    font-family: sans-serif;
+    font-size: small;
+}
+.backend div p{
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.backend li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0C9AC7;
+    padding: 10px;
+    margin: 1rem 2rem;
+    width: 250px;
+    font-size: 15px;
+    height: 50px;
+}
+.backend li img{
+    width: 38px;  
+}
+footer {
+    background-image: linear-gradient(rgb(14, 109, 133),#242830) ;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+
 
