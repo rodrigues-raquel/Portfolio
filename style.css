@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Jura', sans-serif;
+    
+}
+header{
+    background-image: url("./img/image\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 700px;
+}
+header ul{
+    font-size: medium;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80rem;
+   
+    
+     
+}
+header li{
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+  
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: x-large;
+    
+}
+section p{
+    margin-top: 20px;
+    font-size: large;
+}
+.sobre{
+   display:flex;
+   height: 300px;
+   justify-content: space-around;
+   padding: 2rem 5rem;
+   background-image:white;
+   color: #272727;
+   font-family: sans-serif;
+  
+
+   
+}
+.sobre h1{
+    margin-top: 50px;
+   
+}
+
+.habilidades h1 {
+    padding-top: 90px;
+  
+   
+}
+.habilidades{
+    margin-left: 100px;
+
+}
+.habilidades h3 {
+    margin-top: 50px;
+}
+article {
+    background-color: #272727;
+    color: white;
+    height: 60rem;
+    justify-content: center;
+    
+}
+.biblioteca{
+    display: flex;
+    margin-left: 100px;
+}
+.biblioteca div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;  
+}
+.biblioteca div span{
+    color:#a89e9e;
+    font-family: sans-serif;
+    font-size: small;
+}
+.biblioteca div p{
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+.biblioteca li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0C9AC7;
+    padding: 10px;
+    margin: 1rem 2rem;
+    width: 250px;
+    font-size: 15px;
+    height: 50px;
+
+
+}
+.biblioteca li img{
+    width: 38px;  
+}
+
+.habilidades h3 {
+    margin-top: 150px;
+}
+article {
+    background-color: #363535;
+    color: white;
+    height: 90rem;
+}
+
+.linguagens{
+    display: flex;
+    margin-left: 100px;
+}
+.linguagens div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    
+   
+}
+.linguagens div span{
+    color:#a89e9e;
+    font-family: sans-serif;
+    font-size: small;
+}
+.linguagens div p{
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+.linguagens li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0C9AC7;
+    padding: 10px;
+    margin: 1rem 2rem;
+    width: 250px;
+    font-size: 15px;
+    height: 50px;
+
+
+}
+.linguagens li img{
+    width: 38px;  
+}
+.backend{
+    display: flex;
+    
+}
+.backend div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.backend div span{
+    color:#e2d9d9;
+    font-family: sans-serif;
+    font-size: small;
+}
+.backend div p{
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.backend li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0C9AC7;
+    padding: 10px;
+    margin: 1rem 2rem;
+    width: 250px;
+    font-size: 15px;
+    height: 50px;
+}
+.backend li img{
+    width: 38px;  
+}
+footer {
+    background-color: #272727;
+    color: #52b4cc;
+    text-align: center;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("img/Component 1.png");
+    background-size:  cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    
+
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 100px;
+    justify-content: space-around;
+    
+
+    
+}
+.footer-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.portfolio{
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+    background-image: white;
+    color: #363535;
+     
+    
+}
+.show{
+    margin-top: 50px;
+    
+      
+}
+.projetos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+.projetos li img{
+    width: 270px;
+    height: 220px;
+    margin-top: 50px;
+}
+.rodape{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
